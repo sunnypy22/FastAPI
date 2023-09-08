@@ -3,6 +3,7 @@ from datetime import datetime
 from typing import Optional
 from pydantic.types import conint
 
+
 """
 1] This below class method will autometically convert the data type as mentioned
 2] It will give the error In standard way If we miss something in body
@@ -16,7 +17,7 @@ class Post(BaseModel):
     content :str
     published: bool = True
 
-
+ 
 class UserOut(BaseModel):
     id : int
     email:EmailStr

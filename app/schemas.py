@@ -12,6 +12,7 @@ from pydantic.types import conint
 4] We can add optional key as well i.e. rating
 4] We can pass this class name in def parameter
 """
+
 class Post(BaseModel):
     title: str
     content :str

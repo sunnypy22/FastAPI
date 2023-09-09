@@ -126,3 +126,11 @@ openssl rand -hex 32
 <!-- add origin -->
 >>> git remote add origin https://github.com/sunnypy22/FastAPI.git
 >>> git push -u origin main
+
+<!-- Install alembic which is used as data migration tool -->
+
+>>> pip install alembic
+
+<!-- initiate alembic file by using belopw command , this will create alembic dir in current project -->
+<!-- last alembic is folder name -->
+>>>alembic init alembic 
